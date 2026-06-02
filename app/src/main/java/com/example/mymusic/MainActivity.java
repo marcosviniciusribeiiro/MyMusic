@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Color Your Night · Azumi Takahashi ", R.raw.color_your_night));
 
-        playlist.add(new Musica("Heartful Cry (P3R ver.) ATLUS Sound Team · Shoji Meguro", R.raw.heartful_cry));
+        playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro - ATLUS Sound Team", R.raw.heartful_cry));
 
-        playlist.add(new Musica("When Mother was There - ATLUS Sound Team", R.raw.when_mother_was_there));
+        playlist.add(new Musica("When Mother was There\n- ATLUS Sound Team", R.raw.when_mother_was_there));
 
-        playlist.add(new Musica("Beneath the Mask (Instrumental) · Lyn", R.raw.beneath_the_mask));
+        playlist.add(new Musica("Beneath the Mask (Instrumental)\n· Lyn", R.raw.beneath_the_mask));
 
-        playlist.add(new Musica("Life Will Change - Persona 5 OST - Shoji Meguro", R.raw.life_will_change));
+        playlist.add(new Musica("Life Will Change - Persona 5 OST\n· Shoji Meguro", R.raw.life_will_change));
 
         playlist.add(new Musica("KICK BACK", R.raw.kick_back));
 
