@@ -27,9 +27,6 @@ public class Musica {
 
     @Override
     public String toString() {
-        return "Musica{" +
-                "titulo='" + titulo + '\'' +
-                ", arquivo=" + arquivo +
-                '}';
+        return titulo;
     }
 }
