@@ -39,21 +39,21 @@ public class MainActivity extends AppCompatActivity {
 
         playlist = new ArrayList<>();
 
-        playlist.add(new Musica("Color Your Night\n· Azumi Takahashi ", R.raw.color_your_night));
+        playlist.add(new Musica("Color Your Night\n· Lotus Juice · Azumi Takahashi", R.raw.color_your_night));
 
-        playlist.add(new Musica("When Mother was There\n· ATLUS Sound Team", R.raw.when_mother_was_there));
+        playlist.add(new Musica("When Mother was There\n· Shoji Meguro", R.raw.when_mother_was_there));
 
-        playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro - ATLUS Sound Team", R.raw.heartful_cry));
+        playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro", R.raw.heartful_cry));
 
-        playlist.add(new Musica("闇 - Darkness P3R (Final Boss theme)\n· Shoji Meguro - ATLUS GAME MUSIC", R.raw.darkness_persona_3_reloaded));
+        playlist.add(new Musica("闇 - Darkness P3R (Final Boss theme)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
 
         playlist.add(new Musica("Beneath the Mask\n· Lyn", R.raw.beneath_the_mask));
 
         playlist.add(new Musica("Life Will Change - Persona 5 OST\n· Shoji Meguro", R.raw.life_will_change));
 
-        playlist.add(new Musica("KICK BACK", R.raw.kick_back));
+        playlist.add(new Musica("KICK BACK\n· Kenshi Yonezu", R.raw.kick_back));
 
-        playlist.add(new Musica("Hunting For Your Dreams (HxH)\nby GALNERYUS ", R.raw.hunting_for_your_dreams));
+        playlist.add(new Musica("Hunting For Your Dreams (HxH)\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
