@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro", R.raw.heartful_cry));
 
-        playlist.add(new Musica("闇 - Darkness P3R (Final Boss theme)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
+        playlist.add(new Musica("闇 - Darkness (Final Boss theme P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
 
         playlist.add(new Musica("Beneath the Mask\n· Lyn", R.raw.beneath_the_mask));
 
@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
         playlist.add(new Musica("KICK BACK\n· Kenshi Yonezu", R.raw.kick_back));
 
         playlist.add(new Musica("Hunting For Your Dreams (HxH)\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
+
+        playlist.add(new Musica("Menace\n· Playboi Carti", R.raw.menace));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
