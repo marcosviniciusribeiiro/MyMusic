@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mymusic.Musica;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listViewMusicas = findViewById(R.id.listview);
+        listViewMusicas = findViewById(R.id.);
         txtMusicaAtual = findViewById(R.id.txtMusicaAtual);
 
         btnPlayPause = findViewById(R.id.btnPlayPause);
