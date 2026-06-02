@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mymusic.Musica;
+import com.example.mymusic.R;
 
 import java.util.ArrayList;
 
@@ -31,20 +32,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listViewMusicas = findViewById(R.id.);
-        txtMusicaAtual = findViewById(R.id.txtMusicaAtual);
+        listViewMusicas = findViewById(R.id.id_musicas);
+        txtMusicaAtual = findViewById(R.id.id_musicaAtual);
 
-        btnPlayPause = findViewById(R.id.btnPlayPause);
-        btnAnterior = findViewById(R.id.btnAnterior);
-        btnProxima = findViewById(R.id.btnProxima);
+        btnPlayPause = findViewById(R.id.id_btn_play);
+        btnAnterior = findViewById(R.id.id_btn_anterior);
+        btnProxima = findViewById(R.id.id_btn_proximo);
 
         playlist = new ArrayList<>();
 
-        playlist.add(new Musica("Imagine Dragons - Believer", R.raw.believer));
+        playlist.add(new Musica("KICK BACK", R.raw.kick_back));
 
-        playlist.add(new Musica("Coldplay - Viva La Vida", R.raw.viva_la_vida));
+        playlist.add(new Musica("Touhou 7 - Charming Domination", R.raw.charming_domination));
 
-        playlist.add(new Musica("Coldplay - Paradise", R.raw.paradise));
+        playlist.add(new Musica("Life Will Change ( With Lyrics ) - Persona 5 OST", R.raw.life_will_change));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
