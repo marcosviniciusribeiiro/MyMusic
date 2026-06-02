@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Hunting For Your Dreams (HxH)\nby GALNERYUS ", R.raw.hunting_for_your_dreams));
 
-        playlist.add(new Musica("Touhou 7 - Charming Domination", R.raw.charming_domination));
-
-
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
                         android.R.layout.simple_list_item_1,
