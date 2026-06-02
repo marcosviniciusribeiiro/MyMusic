@@ -1,3 +1,5 @@
+package com.example.mymusic;
+
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -18,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView txtMusicaAtual;
 
     private Button btnPlayPause;
-    private Button btnAnterior;
     private Button btnProxima;
 
     private ArrayList<Musica> playlist;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         txtMusicaAtual = findViewById(R.id.id_musicaAtual);
 
         btnPlayPause = findViewById(R.id.id_btn_play);
-        btnAnterior = findViewById(R.id.id_btn_anterior);
+        Button btnAnterior = findViewById(R.id.id_btn_anterior);
         btnProxima = findViewById(R.id.id_btn_proximo);
 
         playlist = new ArrayList<>();
