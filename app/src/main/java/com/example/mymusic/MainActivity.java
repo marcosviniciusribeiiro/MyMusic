@@ -1,5 +1,6 @@
 package com.example.mymusic;
 
+import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -9,18 +10,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mymusic.Musica;
-import com.example.mymusic.R;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView listViewMusicas;
     private TextView txtMusicaAtual;
 
     private Button btnPlayPause;
-    private Button btnProxima;
 
     private ArrayList<Musica> playlist;
 
@@ -28,25 +24,37 @@ public class MainActivity extends AppCompatActivity {
 
     private int musicaAtual = 0;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listViewMusicas = findViewById(R.id.id_musicas);
+        ListView listViewMusicas = findViewById(R.id.id_musicas);
         txtMusicaAtual = findViewById(R.id.id_musicaAtual);
 
         btnPlayPause = findViewById(R.id.id_btn_play);
         Button btnAnterior = findViewById(R.id.id_btn_anterior);
-        btnProxima = findViewById(R.id.id_btn_proximo);
+        Button btnProxima = findViewById(R.id.id_btn_proximo);
 
         playlist = new ArrayList<>();
 
+        playlist.add(new Musica("Color Your Night · Azumi Takahashi ", R.raw.color_your_night));
+
+        playlist.add(new Musica("Heartful Cry (P3R ver.) ATLUS Sound Team · Shoji Meguro", R.raw.heartful_cry));
+
+        playlist.add(new Musica("When Mother was There - ATLUS Sound Team", R.raw.when_mother_was_there));
+
+        playlist.add(new Musica("Beneath the Mask (Instrumental) · Lyn", R.raw.beneath_the_mask));
+
+        playlist.add(new Musica("Life Will Change - Persona 5 OST - Shoji Meguro", R.raw.life_will_change));
+
         playlist.add(new Musica("KICK BACK", R.raw.kick_back));
+
+        playlist.add(new Musica("Hunting For Your Dreams (HxH) by GALNERYUS ", R.raw.hunting_for_your_dreams));
 
         playlist.add(new Musica("Touhou 7 - Charming Domination", R.raw.charming_domination));
 
-        playlist.add(new Musica("Life Will Change ( With Lyrics ) - Persona 5 OST", R.raw.life_will_change));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
@@ -90,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         tocarMusica();
     }
 
+    @SuppressLint("SetTextI18n")
     private void tocarMusica(){
 
         if(mediaPlayer != null){
