@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro - ATLUS Sound Team", R.raw.heartful_cry));
 
-        playlist.add(new Musica("闇 - Darkness P3R Ver - Final Boss theme Episode Aigis\\n· Shoji Meguro - ATLUS GAME MUSIC", R.raw.darkness_persona_3_reloaded));
+        playlist.add(new Musica("闇 - Darkness P3R (Final Boss theme)\n· Shoji Meguro - ATLUS GAME MUSIC", R.raw.darkness_persona_3_reloaded));
 
         playlist.add(new Musica("Beneath the Mask\n· Lyn", R.raw.beneath_the_mask));
 
