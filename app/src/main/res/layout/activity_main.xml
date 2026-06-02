@@ -60,6 +60,7 @@
             android:id="@+id/id_btn_anterior"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
             android:layout_weight="1"
             android:text="Anterior" />
 
@@ -67,15 +68,19 @@
             android:id="@+id/id_btn_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
             android:layout_weight="1"
-            android:text="Play/Pause" />
+            android:text="Play/Pause"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
 
         <Button
             android:id="@+id/id_btn_proximo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
             android:layout_weight="1"
-            android:text="Próximo" />
+            android:text="Próximo"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
