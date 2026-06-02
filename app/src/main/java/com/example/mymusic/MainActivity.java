@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro", R.raw.heartful_cry));
 
-        playlist.add(new Musica("闇 - Darkness (Final Boss theme P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
+        playlist.add(new Musica("闇 - Darkness (Final Boss P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
 
-        playlist.add(new Musica("Life Will Change - Persona 5 OST\n· Shoji Meguro", R.raw.life_will_change));
+        playlist.add(new Musica("Life Will Change - Persona 5\n· Shoji Meguro", R.raw.life_will_change));
 
         playlist.add(new Musica("When Mother was There\n· Shoji Meguro", R.raw.when_mother_was_there));
 
