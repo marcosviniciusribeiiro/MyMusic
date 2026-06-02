@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="396dp"
-        android:layout_height="56dp"
+        android:layout_width="378dp"
+        android:layout_height="68dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,10 +21,11 @@
             android:id="@+id/id_musicaAtual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:text="Nenhuma música"
-            android:layout_gravity="center_vertical"
             android:textSize="20dp" />
+
     </LinearLayout>
 
     <LinearLayout
