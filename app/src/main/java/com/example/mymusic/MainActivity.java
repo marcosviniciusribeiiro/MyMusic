@@ -39,19 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
         playlist = new ArrayList<>();
 
-        playlist.add(new Musica("Color Your Night · Azumi Takahashi ", R.raw.color_your_night));
+        playlist.add(new Musica("Color Your Night\n· Azumi Takahashi ", R.raw.color_your_night));
 
         playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro - ATLUS Sound Team", R.raw.heartful_cry));
 
-        playlist.add(new Musica("When Mother was There\n- ATLUS Sound Team", R.raw.when_mother_was_there));
+        playlist.add(new Musica("When Mother was There\n· ATLUS Sound Team", R.raw.when_mother_was_there));
 
-        playlist.add(new Musica("Beneath the Mask (Instrumental)\n· Lyn", R.raw.beneath_the_mask));
+        playlist.add(new Musica("Beneath the Mask\n· Lyn", R.raw.beneath_the_mask));
 
         playlist.add(new Musica("Life Will Change - Persona 5 OST\n· Shoji Meguro", R.raw.life_will_change));
 
         playlist.add(new Musica("KICK BACK", R.raw.kick_back));
 
-        playlist.add(new Musica("Hunting For Your Dreams (HxH) by GALNERYUS ", R.raw.hunting_for_your_dreams));
+        playlist.add(new Musica("Hunting For Your Dreams (HxH)\nby GALNERYUS ", R.raw.hunting_for_your_dreams));
 
         playlist.add(new Musica("Touhou 7 - Charming Domination", R.raw.charming_domination));
 
