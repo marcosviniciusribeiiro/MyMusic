@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("KICK BACK\n· Kenshi Yonezu", R.raw.kick_back));
 
-        playlist.add(new Musica("Hunting For Your Dreams (HxH)\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
+        playlist.add(new Musica("Hunting For Your Dreams\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
 
         playlist.add(new Musica("Menace\n· Playboi Carti", R.raw.menace));
 
