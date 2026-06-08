@@ -55,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Hunting For Your Dreams\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
 
-        playlist.add(new Musica("Menace\n· Playboi Carti", R.raw.menace));
-
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
                         android.R.layout.simple_list_item_1,
