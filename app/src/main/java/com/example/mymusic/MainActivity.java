@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("闇 - Darkness (Final Boss P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
 
-        playlist.add(new Musica("KICK BACK\n· Kenshi Yonezu", R.raw.kick_back));
-
         playlist.add(new Musica("Hunting For Your Dreams\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
 
         ArrayAdapter<Musica> adapter =
