@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Shoji Meguro \n - Heartful Cry", R.raw.heartful_cry));
 
-        playlist.add(new Musica("B. Franklin · S. Meguro \n - Life Will Change (Instrumental)", R.raw.life_will_change));
+        playlist.add(new Musica("Shoji Meguro + Franklin \n - Life Will Change (Instrumental)", R.raw.life_will_change));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
