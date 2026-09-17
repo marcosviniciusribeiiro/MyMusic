@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
 
+        playlist.add(new Musica("ThxSoMch \n - Spit In My Face (Slowed)", R.raw.spit_in_my_face));
+
         playlist.add(new Musica("Lyn\n - Beneath the Mask (Instrumental)", R.raw.beneath_the_mask));
 
         playlist.add(new Musica("Shoji Meguro \n - Darkness (Final Boss P3R)", R.raw.darkness_persona_3_reload));
