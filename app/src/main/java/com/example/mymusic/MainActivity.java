@@ -39,24 +39,20 @@ public class MainActivity extends AppCompatActivity {
 
         playlist = new ArrayList<>();
 
-        playlist.add(new Musica("Beneath the Mask\n· Lyn", R.raw.beneath_the_mask));
-
-        playlist.add(new Musica("Color Your Night\n· Lotus Juice · Azumi Takahashi", R.raw.color_your_night));
-
-        playlist.add(new Musica("When Mother was There\n· Shoji Meguro", R.raw.when_mother_was_there));
-
-        playlist.add(new Musica("Life Will Change - Persona 5\n· Shoji Meguro", R.raw.life_will_change));
-
-        playlist.add(new Musica("Heartful Cry (P3R ver.)\n· Shoji Meguro", R.raw.heartful_cry));
-
-        playlist.add(new Musica("闇 - Darkness (Final Boss P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
-
-        playlist.add(new Musica("Imagine Dragons\n - Thunder", R.raw.thunder));
-
-        playlist.add(new Musica("\n" +
-                "Marshmello ft.Khalid - Silence (Video Oficial)", R.raw.silence));
+        playlist.add(new Musica("Marshmello ft. Khalid \n - Silence (Video Oficial)", R.raw.silence));
 
         playlist.add(new Musica("Juice WRLD ft. Marshmello \n - Come & Go (Official Audio)", R.raw.come_and_go));
+
+        playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
+        
+        playlist.add(new Musica("Shoji Meguro \n - Life Will Change", R.raw.life_will_change));
+
+        playlist.add(new Musica("Shoji Meguro \n - Heartful Cry", R.raw.heartful_cry));
+
+        playlist.add(new Musica("Shoji Meguro \n - Darkness (Final Boss P3R)", R.raw.darkness_persona_3_reload));
+
+        playlist.add(new Musica("Lyn\n - Beneath the Mask", R.raw.beneath_the_mask));
+
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
