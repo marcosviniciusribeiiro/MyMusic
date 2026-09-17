@@ -44,15 +44,14 @@ public class MainActivity extends AppCompatActivity {
         playlist.add(new Musica("Juice WRLD ft. Marshmello \n - Come & Go (Official Audio)", R.raw.come_and_go));
 
         playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
-        
-        playlist.add(new Musica("Shoji Meguro \n - Life Will Change", R.raw.life_will_change));
 
-        playlist.add(new Musica("Shoji Meguro \n - Heartful Cry", R.raw.heartful_cry));
+        playlist.add(new Musica("Lyn\n - Beneath the Mask (Instrumental)", R.raw.beneath_the_mask));
 
         playlist.add(new Musica("Shoji Meguro \n - Darkness (Final Boss P3R)", R.raw.darkness_persona_3_reload));
 
-        playlist.add(new Musica("Lyn\n - Beneath the Mask", R.raw.beneath_the_mask));
+        playlist.add(new Musica("Shoji Meguro \n - Heartful Cry", R.raw.heartful_cry));
 
+        playlist.add(new Musica("B. Franklin · S. Meguro \n - Life Will Change (Instrumental)", R.raw.life_will_change));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
