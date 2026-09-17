@@ -51,7 +51,12 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("闇 - Darkness (Final Boss P3R)\n· Shoji Meguro", R.raw.darkness_persona_3_reload));
 
-        playlist.add(new Musica("Hunting For Your Dreams\n· GALNERYUS ", R.raw.hunting_for_your_dreams));
+        playlist.add(new Musica("Imagine Dragons\n - Thunder", R.raw.));
+
+        playlist.add(new Musica("\n" +
+                "Marshmello ft.Khalid - Silence (Video Oficial)", R.raw.));
+
+        playlist.add(new Musica("Juice WRLD ft. Marshmello \n - Come & Go (Official Audio)", R.raw.));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
