@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         playlist.add(new Musica("Juice WRLD ft. Marshmello \n - Come & Go (Official Audio)", R.raw.come_and_go));
 
-        playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
-
         playlist.add(new Musica("ThxSoMch \n - Spit In My Face (Slowed)", R.raw.spit_in_my_face));
+
+        playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
 
         playlist.add(new Musica("Lyn\n - Beneath the Mask (Instrumental)", R.raw.beneath_the_mask));
 
