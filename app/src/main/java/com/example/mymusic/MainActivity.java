@@ -39,29 +39,29 @@ public class MainActivity extends AppCompatActivity {
 
         playlist = new ArrayList<>();
 
-        playlist.add(new Musica("Imagine Dragons \n - Thunder", R.raw.thunder));
+        playlist.add(new Musica("Thunder (Imagine Dragons)", R.raw.thunder));
 
-        playlist.add(new Musica("Juice WRLD ft. Marshmello \n - Come & Go (Official Audio)", R.raw.come_and_go));
+        playlist.add(new Musica("Come & Go (Juice WRLD ft. Marshmello)", R.raw.come_and_go));
 
-        playlist.add(new Musica("Marshmello ft. Khalid \n - Silence (Video Oficial)", R.raw.silence));
+        playlist.add(new Musica("Silence [Slowed - Reverb] (Marshmello ft. Khalid)", R.raw.marshmello_ft_khalid_silence));
 
-        playlist.add(new Musica("ThxSoMch \n - Spit In My Face (Remix)", R.raw.spit_in_my_face_remix));
+        playlist.add(new Musica("Spit In My Face [Slowed] (ThxSoMch)", R.raw.spit_in_my_face_slowed));
 
-        playlist.add(new Musica("1Kilo \n - Deixe me Ir (Slowed)", R.raw.deixe_me_ir_slowed));
+        playlist.add(new Musica("Deixe me Ir [Slowed] (1Kilo)", R.raw.deixe_me_ir_slowed));
 
-        playlist.add(new Musica("Plenka \n - Call Me (Ultra Slowed)", R.raw.call_me_slowed));
+        playlist.add(new Musica("Call Me [Ultra Slowed] (Plenka)", R.raw.call_me_slowed));
 
-        playlist.add(new Musica("Spy Family (Ending 1)", R.raw.spy_family_ending));
+        playlist.add(new Musica("Spy Family [Ending 1]", R.raw.spy_family_ending));
 
-        playlist.add(new Musica("Lyn\n - Beneath the Mask (Instrumental)", R.raw.beneath_the_mask));
+        playlist.add(new Musica("Beneath the Mask [Instrumental] (Lyn)", R.raw.beneath_the_mask));
 
-        playlist.add(new Musica("Shoji Meguro + Franklin \n - Life Will Change (Instrumental)", R.raw.life_will_change));
+        playlist.add(new Musica("Life Will Change [Instrumental] (Shoji Meguro + Franklin)", R.raw.life_will_change));
 
-        playlist.add(new Musica("Shoji Meguro \n - Heartful Cry", R.raw.heartful_cry));
+        playlist.add(new Musica("Heartful Cry (Shoji Meguro)", R.raw.heartful_cry));
 
-        playlist.add(new Musica("Shoji Meguro \n - Darkness (Final Boss P3R)", R.raw.darkness_persona_3_reload));
+        playlist.add(new Musica("Darkness [Final Boss P3R] (Shoji Meguro)", R.raw.darkness_persona_3_reload));
 
-        playlist.add(new Musica("Molly (Guitar Remix)", R.raw.silence));
+        playlist.add(new Musica("Molly [Guitar Remix] (Playboi Carti)", R.raw.molly_x_batman_guitar_remix));
 
         ArrayAdapter<Musica> adapter =
                 new ArrayAdapter<>(MainActivity.this,
